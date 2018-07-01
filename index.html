@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Devowo</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"  />
+<meta name="author" content="dev.0wo.me" />
+<meta name="description" content="dev.0wo.me | Your solution for shit">
+<meta name="keywords" content="Dev, 0wo, personal, website, awesome, things, video, audio, playlist, electro, glitch, hop, house, dance, nightcore">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#2A2625">
+<meta property="og:title" content="dev.0wo.me">
+<meta property="og:description" content="Nothing wrong with being cute.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://dev.0wo.me/">
+<meta property="og:image" content="" />
+<link rel="Shortcut Icon" href="" type="image/png" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<style type="text/css">
+    @font-face {
+        font-family: 'Advent Pro';
+        font-style: normal;
+        font-weight: 100;
+        src: url('https://0wo.me/font/AdventPro.woff2') format('woff2');
+    }
+
+    @media screen {
+        img {
+            border: 0px;
+        }
+        
+        a:link, a:visited  {
+            color: #2A2625;
+            text-decoration: none;
+        }
+        a:hover, a:active {
+            color: #6598b8;
+            text-decoration: none;
+        }
+        
+        html {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background-position: center 6%;
+            background-image:url('https://0wo.me/img/playful_catgirl.png');
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+            background-color: #000;
+            margin: 0;
+            padding: 0;
+        }
+        
+        h1 {
+            margin:0;
+            padding:0;
+            font-size:100%;font-weight:normal;
+        }
+        
+        #main {
+            position: absolute;
+            display: block;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+        }
+        
+        #overlay {
+            font-family: 'Advent Pro', sans-serif;
+            font-size: 7em;
+            margin: .2em .5em;
+            color: rgba(255, 255, 255, 1);
+            position: fixed;
+            right: 0;
+            z-index: 20;
+        }
+        
+        #overlay2 {
+            display: none;
+            position: fixed;
+            bottom: 80px;
+            right: 0;
+            height: 77px;
+            width: 600px;
+            padding: 10px;
+            padding-right: 40px;
+            font-family: 'Advent Pro', sans-serif;
+            font-size: 4em;
+            color: #000;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.75);
+            border-radius: 10px 0px 0px 10px;
+        }
+        
+        #overlay {
+            left: auto;
+            right: 0;
+        }
+        
+        #overlay2 {
+            height: 59px;
+            font-size: 3em;
+        }
+
+        #overlay3 {
+            text-align: center;
+            position: absolute;
+            margin: auto;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            z-index: 34999;
+        }
+        
+        #twitter {
+            position: absolute;
+            left: 10px;
+            bottom: 10px;
+        }
+    }
+
+    @media all and (max-width: 1200px), all and (max-device-width: 1200px) {
+        #overlay {
+            font-size: 7em;
+        }
+    }
+        
+    @media all and (max-width: 400px), all and (max-device-width: 400px) {
+        #overlay {
+            font-size: 3.5em;
+        }
+    }
+
+    @media print {
+        img {
+            border: 0px;
+        }
+        
+        a:link, a:visited  {
+            color: #2A2625;
+            text-decoration: none;
+        }
+        a:hover, a:active {
+            color: #6598b8;
+            text-decoration: none;
+        }
+        
+        body {
+            background-color: #2A2625;
+        }
+        
+        h1 {
+            margin:0;
+            padding:0;
+            font-size:100%;font-weight:normal;
+        }
+        
+        #twitter {
+            display: none;
+        }
+        
+        #menu {
+            display: none;
+        }
+        
+        #menubox {
+            display: none;
+        }
+        
+        #overlay {
+            display: none;
+        }
+        
+        #overlay2 {
+            display: none;
+        }
+    }
+</style>
+<script type='text/javascript'>
+	window.onload = function () {
+		setTimeout(function () {
+			$("#overlay2").show('slide', { direction: 'right' }, 1500);
+		}, 100);
+		
+		setTimeout(function () {
+			window.location.href = 'https://git.fuwafuwa.moe/Devowo/';
+		}, 8000);
+	}
+</script>
+</head>
+<body>
+<div id="main">
+	<div id="overlay"><h1>Dev.owo</h1></div>
+	<div id="overlay2">You will be redirected shortly...</div>
+</div>
+<div id="overlay3"></div>
+</body>
+</html>
